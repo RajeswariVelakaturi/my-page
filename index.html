@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page Demo</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">My Website</div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#" id="openLogin">Login</a>
+        </div>
+    </div>
+
+    <!-- Sections -->
+    <section id="home" class="section">Home Section</section>
+    <section id="about" class="section">About Section</section>
+    <section id="services" class="section">Services Section</section>
+    <section id="contact" class="section">Contact Section</section>
+
+    <!-- Login Popup -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <h2>Login</h2>
+
+            <input type="text" id="username" placeholder="Enter Username">
+            <input type="password" id="password" placeholder="Enter Password">
+
+            <button id="loginBtn">Login</button>
+            <button class="closeBtn" id="closeLogin">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
