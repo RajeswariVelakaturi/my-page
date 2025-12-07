@@ -1,26 +1,13 @@
-let modal = document.getElementById("loginModal");
-let openBtn = document.getElementById("openLogin");
-let closeBtn = document.getElementById("closeLogin");
-let loginBtn = document.getElementById("loginBtn");
+// set footer years
+document.getElementById('year')?.innerText = new Date().getFullYear();
+document.getElementById('year2')?.innerText = new Date().getFullYear();
+document.getElementById('year3')?.innerText = new Date().getFullYear();
+document.getElementById('year4')?.innerText = new Date().getFullYear();
 
-// Open Login Popup
-openBtn.onclick = () => {
-    modal.style.display = "flex";
-};
-
-// Close Login Popup
-closeBtn.onclick = () => {
-    modal.style.display = "none";
-};
-
-// Login Button
-loginBtn.onclick = () => {
-    let user = document.getElementById("username").value;
-    let pass = document.getElementById("password").value;
-
-    if (user === "admin" && pass === "1234") {
-        window.location.href = "next.html";
-    } else {
-        alert("Invalid username or password!");
-    }
-};
+// Surprise page "Say Hi" button
+const sayHi = document.getElementById('sayHi');
+if (sayHi) {
+  sayHi.addEventListener('click', () => {
+    alert("Happy Birthday! 🎉🎂\nWishing you a wonderful year ahead.");
+  });
+}
