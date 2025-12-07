@@ -1,27 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Happy Birthday</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Happy Birthday — Home</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo-dot"></div>
+      <div class="brand-text">Birthday Wishes</div>
+    </div>
 
-<nav>
-  <div class="logo">🎉 Birthday Wishes</div>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="wishes.html">Wishes</a></li>
-    <li><a href="memories.html">Memories</a></li>
-    <li><a href="thankyou.html">Thank You</a></li>
-  </ul>
-</nav>
+    <nav class="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="wishes.html" class="nav-link">Wishes</a>
+      <a href="memories.html" class="nav-link">Memories</a>
+      <a href="surprise.html" class="nav-link">Surprise</a>
+    </nav>
+  </header>
 
-<section class="hero">
-  <h1>Happy Birthday, My Dear Friend! 🎂✨</h1>
-  <p>You deserve all the happiness, love & joy today.</p>
-  <a href="wishes.html" class="btn">Read My Wishes ❤️</a>
-</section>
+  <main>
+    <section class="hero hero-elegant">
+      <div class="hero-inner">
+        <h1 class="hero-title">Happy Birthday, Dear Friend!</h1>
+        <p class="hero-lead">Elegance, love and golden moments — today is all about you.</p>
+        <div class="hero-cta">
+          <a class="btn btn-gold" href="wishes.html">Read My Wishes</a>
+          <a class="btn btn-outline" href="memories.html">See Memories</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="info-strip">
+      <div class="info">
+        <h3>Made with ♥</h3>
+        <p>Personalized wishes, memories and a small surprise — all for you.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> — With love</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
