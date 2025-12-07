@@ -1,33 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Birthday Wishes</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo-dot"></div>
+      <div class="brand-text">Birthday Wishes</div>
+    </div>
 
-<nav>
-  <div class="logo">🎉 Birthday Wishes</div>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="wishes.html">Wishes</a></li>
-    <li><a href="memories.html">Memories</a></li>
-    <li><a href="thankyou.html">Thank You</a></li>
-  </ul>
-</nav>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="wishes.html" class="nav-link active">Wishes</a>
+      <a href="memories.html" class="nav-link">Memories</a>
+      <a href="surprise.html" class="nav-link">Surprise</a>
+    </nav>
+  </header>
 
-<section class="content">
-  <h2>My Heartfelt Wishes For You 💖</h2>
-  <p class="msg">
-    On this special day, I want you to know how important you are in my life.
-    You bring joy, laughter, and positivity everywhere you go.  
-    I’m truly blessed to have you as my friend.  
-    May your birthday be filled with love, surprises, and unforgettable moments! ✨🎂  
-  </p>
+  <main class="page-content">
+    <section class="card">
+      <h2 class="card-title">My Heartfelt Wishes</h2>
+      <p class="card-text">
+        On your special day I wish you endless joy, success and health.
+        May every moment sparkle like gold and every dream you hold come true.
+      </p>
 
-  <a href="memories.html" class="btn">See Our Memories 📸</a>
-</section>
+      <div class="quote">
+        <p>“May your life be filled with golden moments and warm memories.”</p>
+      </div>
 
+      <div class="cta-row">
+        <a class="btn btn-gold" href="surprise.html">Open Surprise 🎁</a>
+        <a class="btn btn-outline" href="memories.html">View Memories 📸</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year2"></span> — With love</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
