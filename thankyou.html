@@ -1,40 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Happy Birthday — Home</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            background: white;
+            color: #444;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #fff;
+            border-bottom: 2px solid #f1d28a;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: #444;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #b8860b; /* Gold */
+        }
+
+        /* Main Section */
+        .container {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        h1 {
+            font-size: 55px;
+            color: #b8860b;
+            letter-spacing: 2px;
+        }
+
+        p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+            color: #777;
+        }
+
+        .gold-line {
+            width: 140px;
+            height: 4px;
+            background: #b8860b;
+            margin: 20px auto;
+            border-radius: 2px;
+        }
+
+        .thank-img {
+            width: 330px;
+            margin-top: 40px;
+            border-radius: 15px;
+            border: 5px solid #f1d28a;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 25px;
+            background: #b8860b;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            background: #916c0f;
+        }
+    </style>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">
-      <div class="logo-dot"></div>
-      <div class="brand-text">Birthday Wishes</div>
-    </div>
 
-    <nav class="nav">
-      <a href="index.html" class="nav-link active">Home</a>
-      <a href="wishes.html" class="nav-link">Wishes</a>
-      <a href="memories.html" class="nav-link">Memories</a>
-      <a href="surprise.html" class="nav-link">Surprise</a>
-      <a href="thankyou.html" class="nav-link">ThankYou</a>
-
+    <!-- Navigation Menu -->
+    <nav>
+        <div style="font-size: 20px; font-weight: 600; color: #b8860b;">My Birthday Wishes</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="wishes.html">Wishes</a>
+            <a href="memories.html">Memories</a>
+            <a href="surprise.html">Surprise</a>
+            <a href="thankyou.html">Thank You</a>
+        </div>
     </nav>
-  </header>
 
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Thank You 🤍💛</h1>
+        <div class="gold-line"></div>
 
-<body>
-<section class="content">
-  <h2>Thank You for Being You 🤗💛</h2>
-  <p class="msg">
-    Thank you for the laughter, support, and countless memories.  
-    You are truly one of a kind! Never stop shining.  
-    Once again, wishing you a very HAPPY BIRTHDAY! 🎂💖  
-  </p>
+        <p>
+            Your presence brings happiness,  
+            your friendship brings warmth,  
+            and your smile makes every moment brighter.  
+            <br><br>
+            Thank you for being such a special part of my life.  
+            This page is dedicated with love and gratitude.
+        </p>
 
-  <a href="index.html" class="btn">Back to Home</a>
-</section>
+        <!-- Replace with your uploaded image link -->
+        <img src="your_image_link_here" alt="Thank You Image" class="thank-img">
+
+        <br>
+        <a href="index.html" class="back-btn">Back to Home</a>
+    </div>
 
 </body>
 </html>
